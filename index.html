@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img class="logo" src="images/gift.svg" height="30" />GiftMe</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Why us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-danger" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="px-4 py-5 my-5 text-center">
+      <h1 class="display-5 fw-bold text-body-emphasis">
+        Gift to your beloved ones
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          velit repellendus dolores voluptates ipsam nisi possimus accusantium
+          neque molestias ea! Sit id quaerat rerum rem magni adipisci excepturi
+          similique laboriosam?
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-danger btn-lg px-4 gap-3">
+            Pack Gift Now
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            Contact Us
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURES -->
+    <div class="b-example-divider"></div>
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom">Why us</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 bg-danger"
+          >
+            <img class="white-logo" src="images/gift-box.svg" alt="Gift Box" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Professional</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam rem
+            reiciendis suscipit facere blanditiis
+          </p>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 bg-danger"
+          >
+            <img src="images/limitless-option.svg" alt="Search Options" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Limitless Options</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ipsam
+            rem, nobis voluptas tenetur architecto iste
+          </p>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 bg-danger"
+          >
+            <img src="images/shipping.svg" alt="Shipping Truck" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Fast Shipping</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            consequuntur quidem inventore eveniet delectus, ducimus unde
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
